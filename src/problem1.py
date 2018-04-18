@@ -2,8 +2,8 @@
 Exam 2, problem 1.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  April 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Jeremy Roy.  April 2018.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
 
 
 ###############################################################################
-# TODO: 2.  READ the code of the  Rect  class below.
+# Done: 2.  READ the code of the  Rect  class below.
 #
 #   Once you are confident that you understand the  Rect  class and its code,
 #   change the TO-DO for this problem to DONE.
@@ -29,12 +29,26 @@ class Rect(object):
 def run_test_problem1():
     """ Tests the   problem1   function. """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement at least 2 tests of the  problem1  function.
+    # Done: 3. Implement at least 2 tests of the  problem1  function.
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   problem1   function:')
     print('--------------------------------------------------')
+
+    #Test 1
+    expected = 110
+    answer = problem1([Rect(5, 6), Rect(5, 7), Rect(5, 9)])
+    print('Test 1:')
+    print('expected:', expected)
+    print('answer:', answer)
+
+    #Test 2
+    expected = 1885
+    answer = problem1([Rect(100, 2), Rect(50, 25), Rect(15, 29)])
+    print('Test 2:')
+    print('expected:', expected)
+    print('answer', answer)
 
 
 def problem1(rectangles):
@@ -55,7 +69,7 @@ def problem1(rectangles):
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     # -------------------------------------------------------------------------
-
+    area = self.w*self.h
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
