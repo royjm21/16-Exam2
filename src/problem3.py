@@ -45,11 +45,12 @@ class Person(object):
         Side effects: Sets instance variables as needed by the other methods.
         """
         # TODO: Implement and test this method.
+        self.age = age
 
     def get_age(self):
         """ Returns this Person's age. """
         # TODO: Implement and test this method.
-
+        return age
     def celebrate_birthday(self):
         """
         Increments this Person's age.

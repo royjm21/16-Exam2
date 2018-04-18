@@ -50,6 +50,13 @@ def run_test_problem1():
     print('expected:', expected)
     print('answer', answer)
 
+    #Test 3
+    expected = 68
+    answer = problem1([Rect(2,3), Rect(4, 5), Rect(6, 7)])
+    print("Test 3:")
+    print('expected:', expected)
+    print('answer', answer)
+
 
 def problem1(rectangles):
     """
