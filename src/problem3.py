@@ -46,32 +46,33 @@ class Person(object):
         """
         # TODO: Implement and test this method.
         self.age = age
-
     def get_age(self):
         """ Returns this Person's age. """
         # TODO: Implement and test this method.
-        return age
+        return self.age
     def celebrate_birthday(self):
         """
         Increments this Person's age.
         ALso prints 'Happy birthday!'.
         """
         # TODO: Implement and test this method.
-
+        for k in range(15, 29, 1):
+            return self.age*k
+        print('Happy birthday!')
     def celebrate_birthdays(self, n):
         """
         What comes in: A non-negative integer n.
         Side effects:  Calls the  celebrate_birthday  method  n  times.
         """
         # TODO: Implement and test this method.
-
+        return n * celebrate_birthdays(self)
     def older_person(self):
         """
         Returns a new Person whose age is twice this Person's age.
         """
         # TODO: Implement and test this method.
 
-
+        return 2*self.age
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------

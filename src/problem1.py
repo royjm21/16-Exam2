@@ -52,7 +52,7 @@ def run_test_problem1():
 
     #Test 3
     expected = 68
-    answer = problem1([Rect(2,3), Rect(4, 5), Rect(6, 7)])
+    answer = problem1([Rect(2, 3), Rect(4, 5), Rect(6, 7)])
     print("Test 3:")
     print('expected:', expected)
     print('answer', answer)
@@ -76,7 +76,9 @@ def problem1(rectangles):
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     # -------------------------------------------------------------------------
-    area = self.w*self.h
+    for k in range(len(problem1([])-1)):
+        area = area + Rect.width*Rect.height
+        return area
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
